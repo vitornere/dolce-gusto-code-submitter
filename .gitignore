@@ -1,0 +1,13 @@
+# Ignore any directory with a name consisting of digits
+[0-9]*/
+
+# Other ignore rules can go here
+*.log
+*.tmp
+__pycache__/
+.env
+cookies.json
+LICENSE.chromedriver
+
+# Ignore any debug .png files
+debug_*.png
