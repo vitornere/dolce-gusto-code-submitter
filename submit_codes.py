@@ -64,7 +64,7 @@ def main():
         options.add_argument('--ignore-certificate-errors')
 
     for header in CUSTOM_HEADERS:
-        key, value = header.split("=")
+        key, value = header.split("=", 1)
         options.add_argument(f"--{key}={value}")
 
     driver = webdriver.Chrome(service=service, options=options)
