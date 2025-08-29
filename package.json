@@ -1,0 +1,26 @@
+{
+    "name": "dolce-gusto-code-submitter",
+    "version": "1.0.0",
+    "description": "A crawler to submit codes to dolce gusto",
+    "type": "module",
+    "scripts": {
+        "run:submit": "tsx src/submit.ts",
+        "postinstall": "npx crawlee install-playwright-browsers"
+    },
+    "dependencies": {
+        "crawlee": "^3.0.0",
+        "got": "^14.4.7",
+        "jsdom": "^26.1.0",
+        "playwright": "*",
+        "tough-cookie": "^5.1.2"
+    },
+    "devDependencies": {
+        "@apify/tsconfig": "^0.1.0",
+        "@types/node": "^22.0.0",
+        "tsx": "^4.4.0",
+        "typescript": "~5.8.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

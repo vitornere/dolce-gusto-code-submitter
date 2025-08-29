@@ -6,8 +6,10 @@
 *.tmp
 __pycache__/
 .env
-cookies.json
+session.json
 LICENSE.chromedriver
 
 # Ignore any debug .png files
 debug_*.png
+node_modules/
+storage/
